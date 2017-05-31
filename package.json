@@ -1,0 +1,22 @@
+{
+  "name": "kubernetes-socket-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauscoelho/kubernetes-socket-node.git"
+  },
+  "keywords": [
+    "kubernetes"
+  ],
+  "author": "Mauricio Coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauscoelho/kubernetes-socket-node/issues"
+  },
+  "homepage": "https://github.com/mauscoelho/kubernetes-socket-node#readme"
+}
