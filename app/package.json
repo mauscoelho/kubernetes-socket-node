@@ -21,6 +21,7 @@
   "homepage": "https://github.com/mauscoelho/kubernetes-socket-node#readme",
   "dependencies": {
     "redis": "^2.7.1",
-    "socket.io": "^2.0.1"
+    "socket.io": "^2.0.1",
+    "socket.io-redis": "^5.0.1"
   }
 }
