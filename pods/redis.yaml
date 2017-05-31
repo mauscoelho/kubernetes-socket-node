@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: some-redis
+  labels:
+    name: some-redis
+spec:
+  containers:
+    - image: launcher.gcr.io/google/redis3
+      name: redis
