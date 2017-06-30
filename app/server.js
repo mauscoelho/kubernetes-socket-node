@@ -11,7 +11,7 @@ io.sockets.on("connection", function(socket) {
     console.log("Receive message socket");
     console.log(data);
     setTimeout(() => {
-      socket.emit("msg", { message: "hello guy :)" });
+      socket.broadcast.emit("msg", { message: "hello guy :)" });
     }, 1000);
   });
 });
